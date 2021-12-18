@@ -1,8 +1,14 @@
 {
   "private": true,
   "name": "boilerplate-ava",
-  "version": "0.0.0",
   "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
   "scripts": {
     "test": "ava",
     "test:nyan": "ava --tap | tap-nyan",

@@ -1,5 +1,5 @@
 import test from "ava";
-import { Example } from "../src/example";
+import { Example } from "./example";
 
 let o;
 
