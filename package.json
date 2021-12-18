@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "boilerplate-ava",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "test": "ava",
+    "test:nyan": "ava --tap | tap-nyan",
+    "coverage": "c8 ava"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "c8": "^7.10.0",
+    "esm": "^3.2.25",
+    "tap-nyan": "^1.1.0"
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ],
+    "failFast": true,
+    "snapshotDir": "snapshots/"
+  }
+}
