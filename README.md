@@ -17,3 +17,7 @@ npm test
 ```bash
 npm run coverage
 ```
+
+## License
+
+[The MIT License](https://piecioshka.mit-license.org) @ 2021
